@@ -132,10 +132,10 @@
 
   @supports (display: grid) {
     @if $Location {
-      grid-columns: $Location / span $Span;
+      grid-column: $Location / span $Span;
     }
     @else {
-      grid-columns: span $Span;
+      grid-column: span $Span;
     }
   }
 }
